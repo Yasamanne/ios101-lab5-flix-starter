@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED83EE9A29B05FCE007A4FC9 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83EE9929B05FCE007A4FC9 /* Movie.swift */; };
+		CB7C38922AE3431A002638E9 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C38912AE3431A002638E9 /* PostCell.swift */; };
+		ED83EE9A29B05FCE007A4FC9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83EE9929B05FCE007A4FC9 /* Post.swift */; };
 		ED83EE9D29B06A4C007A4FC9 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = ED83EE9C29B06A4C007A4FC9 /* Nuke */; };
 		ED88ABF229AD9858008A6FF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED88ABF129AD9858008A6FF6 /* AppDelegate.swift */; };
 		ED88ABF429AD9858008A6FF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED88ABF329AD9858008A6FF6 /* SceneDelegate.swift */; };
@@ -18,7 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ED83EE9929B05FCE007A4FC9 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		CB7C38912AE3431A002638E9 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		ED83EE9929B05FCE007A4FC9 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		ED88ABEE29AD9858008A6FF6 /* ios101-lab5-flix1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios101-lab5-flix1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED88ABF129AD9858008A6FF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED88ABF329AD9858008A6FF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,11 +65,12 @@
 				ED88ABF129AD9858008A6FF6 /* AppDelegate.swift */,
 				ED88ABF329AD9858008A6FF6 /* SceneDelegate.swift */,
 				ED88ABF529AD9858008A6FF6 /* ViewController.swift */,
-				ED83EE9929B05FCE007A4FC9 /* Movie.swift */,
+				ED83EE9929B05FCE007A4FC9 /* Post.swift */,
 				ED88ABF729AD9858008A6FF6 /* Main.storyboard */,
 				ED88ABFA29AD9859008A6FF6 /* Assets.xcassets */,
 				ED88ABFC29AD9859008A6FF6 /* LaunchScreen.storyboard */,
 				ED88ABFF29AD9859008A6FF6 /* Info.plist */,
+				CB7C38912AE3431A002638E9 /* PostCell.swift */,
 			);
 			path = "ios101-lab5-flix1";
 			sourceTree = "<group>";
@@ -151,8 +154,9 @@
 			files = (
 				ED88ABF629AD9858008A6FF6 /* ViewController.swift in Sources */,
 				ED88ABF229AD9858008A6FF6 /* AppDelegate.swift in Sources */,
-				ED83EE9A29B05FCE007A4FC9 /* Movie.swift in Sources */,
+				ED83EE9A29B05FCE007A4FC9 /* Post.swift in Sources */,
 				ED88ABF429AD9858008A6FF6 /* SceneDelegate.swift in Sources */,
+				CB7C38922AE3431A002638E9 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
